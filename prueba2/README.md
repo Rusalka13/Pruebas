@@ -10,3 +10,9 @@ Día 15/6/2018
   -"3/2, produce error.
   -"** 4-2", produce error.
   -"45-2", produce error.
+
+
+
+1. Buscamos las imagenes.
+
+2. HAcer parallax
