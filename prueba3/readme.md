@@ -17,3 +17,7 @@ Tecnologías aplicadas.
 - Sass
 -Jquerry
 - Git
+
+Pasos.
+
+1.Linkear lo que necesitemos. En esta ocasión ponemos el lin de boostrap (Aquí nos dirige a https://getbootstrap.com/), el sass (segun lo hayamos nombrado). Y los scrips de Vue.js.
