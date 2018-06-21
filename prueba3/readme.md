@@ -21,3 +21,5 @@ Tecnologías aplicadas.
 Pasos.
 
 1.Linkear lo que necesitemos. En esta ocasión ponemos el lin de boostrap (Aquí nos dirige a https://getbootstrap.com/), el sass (segun lo hayamos nombrado). Y los scrips de Vue.js.
+
+2. Poner el navbar, y crear una primerar version de como iran las columnas
