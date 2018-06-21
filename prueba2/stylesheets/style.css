@@ -1,0 +1,41 @@
+/* line 1, ../sass/style.scss */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* line 7, ../sass/style.scss */
+#bloque {
+  background-image: url("http://www.coca-colamexico.com.mx/content/dam/journey/mx/es/private/historia/2018/enero/delvalle-naranjos-riego.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+/* line 16, ../sass/style.scss */
+#bloque2 {
+  background-image: url("https://www.turismo-japon.es/images/recits-de-voyage/sous_les_cerisiers_en_fleurs.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+/* line 25, ../sass/style.scss */
+#bloque3 {
+  background-image: url("https://http2.mlstatic.com/arbol-de-manzanas-manzano-vivero-suenos-del-alma-D_NQ_NP_108221-MLA20749098957_062016-F.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+/* line 34, ../sass/style.scss */
+h1 {
+  margin: 0;
+}

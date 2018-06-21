@@ -5,13 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 <body>
-        <div id="app-5">
-                <p>{{ message }}</p>
-                <button v-on:click="reverseMessage">Estaré al revés</button>
-              </div>
 
+    <div id="bloque"></div>
+    
+    <div id="bloque2">
+    <div id="app-5">
+      <p>{{ message }}</p>
+      <button v-on:click="reverseMessage">Estaré al revés</button>
+    </div>
+    </div> 
+
+    <div id="bloque3"></div>
+
+    <input type="text" id="myInput" placeholder="Calcula">
+
+    <button onclick="suma()" class="addBtn">Calcular</button>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.js"></script>
     <script src="app.js"></script>
 </body>
