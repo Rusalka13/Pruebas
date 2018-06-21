@@ -1,7 +1,7 @@
 Prueba 3
 
 Para la prueba de hoy haremos un e-commence que será de tienda de libros. Para ello necesitará:
-- 6 columnas y dentro de esas 6 columna tiene que tener 8 libros. 
+- 6 columnas y dentro de esas 6 columna tiene que tener 8 libros en cada una. 
 - Generar columnas con precio y categorias.
 -Usaremos un ventana modal que hará:
     - Se añade un carro.
