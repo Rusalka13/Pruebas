@@ -5,11 +5,11 @@ new Vue({
     data: { 
         //Array con imagenes de los libros 
         books: [ 
-            {image: 'http://escritoras.com/img/portadas/2141308794.jpg', message:'Todo esto te daré'}, 
-            {image: 'http://escritoras.com/img/portadas/2141307846.jpg', message:'El guardián invisible'}, 
-            {image: 'https://imagessl8.casadellibro.com/a/l/t0/88/9788423348688.jpg', message:'Ofrenda a la tormenta'}, 
-            {image: 'https://i.pinimg.com/originals/bc/86/08/bc860839ba567740dcaf3cbc224913fc.jpg',message:'Memento mori'}, 
-            {image: 'https://imagessl2.casadellibro.com/a/l/t0/12/9788483658512.jpg',message:'Sarna con gusto'}, 
+            {image: 'http://escritoras.com/img/portadas/2141308794.jpg', message:'Todo esto te daré', precio:'19,90€'}, 
+            {image: 'http://escritoras.com/img/portadas/2141307846.jpg', message:'El guardián invisible',precio:'6,90€'}, 
+            {image: 'https://imagessl8.casadellibro.com/a/l/t0/88/9788423348688.jpg', message:'Ofrenda a la tormenta',precio:'6,90€'}, 
+            {image: 'https://i.pinimg.com/originals/bc/86/08/bc860839ba567740dcaf3cbc224913fc.jpg',message:'Memento mori',precio:'15,90€'}, 
+            {image: 'https://imagessl2.casadellibro.com/a/l/t0/12/9788483658512.jpg',message:'Sarna con gusto',precio:'15,90€'}, 
             {image: 'https://imagessl5.casadellibro.com/a/l/t0/75/9788483655375.jpg', message:'Dies Irae'}, 
             {image: 'https://imagessl5.casadellibro.com/a/l/t0/55/9788483657355.jpg', message: 'Khimera'}, 
             {image: 'http://www.perezgellida.es/img/upload/productthumb/957', message:'Mutatis mutandis'}, 
@@ -19,19 +19,19 @@ new Vue({
             {image: 'http://www.asimov.es/wp-content/uploads/2011/05/yo-robot-isaac-asimov.jpg',message:'I,robot'}, 
             {image: 'https://imagessl4.casadellibro.com/a/l/t0/94/9788478887194.jpg', message:'El principito'}, 
             {image: 'https://http2.mlstatic.com/asi-hablaba-zaratustra-D_NQ_NP_6925-MLM5137283219_102013-F.jpg', message:'Así hablaba Zatatustra'}, 
-            {image: 'https://imagessl3.casadellibro.com/a/l/t0/13/9788499282213.jpg', message:'EL arte de la guerra'}, 
+            {image: 'https://imagessl3.casadellibro.com/a/l/t0/13/9788499282213.jpg', message:'El arte de la guerra'}, 
             {image: 'https://imagessl8.casadellibro.com/a/l/t0/88/9788416840588.jpg',message:'Watchmen'}, 
             {image: 'https://imagessl3.casadellibro.com/a/l/t0/63/9788496815063.jpg',message:'Pildoras azules'}, 
             {image: 'http://astiberri.com/spree/products/367/product/lupus.jpg?1433945538',message:'Lupus'}, 
             {image: 'https://imagessl2.casadellibro.com/a/l/t0/62/9788467047462.jpg',message:'Terminamos y otros poemas'}, 
-            {image: 'https://static.lafeltrinelli.it/static/frontside/xxl/681/7594681_2268787.jpg', tmessage:'Milk and Honey'}, 
+            {image: 'https://static.lafeltrinelli.it/static/frontside/xxl/681/7594681_2268787.jpg', message:'Milk and Honey'}, 
             {image: 'https://images-na.ssl-images-amazon.com/images/I/51V91P0EuKL._SX322_BO1,204,203,200_.jpg', message:'Miradas perdidas'}, 
             {image: 'https://images-na.ssl-images-amazon.com/images/I/51plZt32r4L._SX322_BO1,204,203,200_.jpg', message:'Sueños de cristal'}, 
             {image: 'http://edicionescivicas.org/wp-content/uploads/2017/04/portada-cdd.png', message:'El cuento de Dione'}, 
             {image: 'https://images-eu.ssl-images-amazon.com/images/I/51wHW%2BOwwqL.jpg', message:'La bruma'}, 
             {image: 'http://principaldeloslibros.com/index.php?controller=attachment&id_attachment=35', message:'Canción de Bruma'}, 
             {image: 'http://www.libreriaalberti.com/static/img/portadas/_visd_0000JPG00YCE.jpg', message:'Yo materé monstruos por ti'}, 
-            {image: 'http://estaticos.telva.com/assets/multimedia/imagenes/2017/03/21/14901052412214.jpg', message:'EL libro de GLoria Fuertes'}, 
+            {image: 'http://estaticos.telva.com/assets/multimedia/imagenes/2017/03/21/14901052412214.jpg', message:'EL libro de Gloria Fuertes'}, 
             {image: 'https://images-na.ssl-images-amazon.com/images/I/51fMV-qGGPL._SX301_BO1,204,203,200_.jpg', message:'Animal farm'}, 
             {image: 'https://images-na.ssl-images-amazon.com/images/I/51f5Fu2hzqL._SX305_BO1,204,203,200_.jpg', message:'1984'}, 
             {image: 'https://imagessl4.casadellibro.com/a/l/t0/44/9788499088044.jpg', message:'La catedral del mar'}, 
@@ -65,8 +65,17 @@ new Vue({
             var itemsCart = 
             document.getElementById('compra'); 
             //Ponerlos en el carrito 
-            itemsCart.innerHTML =this.items; 
+            itemsCart.innerHTML = this.items; 
         }, 
+        openModal:function(e){
+            //div con id del modal
+            var modal=
+            document.getElementById('modal');
+            //Coger imagen del la ventana modal
+            var imgMo =
+            document.getElementById('imgmo');
+
+        }
          
     } 
 });
