@@ -48,10 +48,30 @@
                     <img class="card-img-top" :src="book.image" alt="Card image cap" width="50%" height="30%">
                     <div class="card-body">
                     <h5> {{book.message}} </h5>
-                    <!-- boton que abre el modal -->
+                    <!-- boton donde adquiero -->
                     <button type="button" class="btn btn-success center" data-toggle="modal" data-target="#exampleModalLong" @click="addBook">
                     Comprar
                     </button>
+                    <!-- boton para el modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                        Ver
+                      </button>
+                            
+                      <!-- Modal -->
+                        <div id="app"class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                           <div class="modal-dialog modal-dialog-centered" role="document">
+                             <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalCenterTitle"> {{book.message}} </h5>
+                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                     </button>
+                                </div>
+                              <div class="modal-body">
+                   
+                            </div>
+                        </div>
+                    </div>
                     </div>
                   </div>
                 </div>
