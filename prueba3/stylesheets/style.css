@@ -2,3 +2,19 @@
 body {
   font-family: Lato;
 }
+
+/* line 8, ../sass/style.scss */
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1em;
+  padding-top: 1%;
+  grid-auto-rows: minmax(100px, auto);
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+/* line 18, ../sass/style.scss */
+.letter {
+  font-size: x-small;
+}
