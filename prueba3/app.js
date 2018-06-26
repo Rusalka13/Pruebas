@@ -55,15 +55,14 @@ new Vue({
             {image: 'https://imagessl5.casadellibro.com/a/l/t0/45/9788466236645.jpg', message:'EL ingenioso idalgo Don Quijote de la Mancha', precio:'10€'} 
         ], 
     }, 
-    methods:{ 
-        addBook: function(e){ 
-            e.preventDefault(); 
-            //Para aumentar la cantidad del carrito 
-            this.items++; 
-            var itemsCart = 
-            document.getElementById('compra'); 
-            //Ponerlos en el carrito 
-            itemsCart.innerHTML = this.items; 
-        },        
-    } 
+    methods: {
+        addCart: function() {
+            var itemsCart = document.getElementById('items');
+            this.items++;
+            itemsCart.innerText = this.items + ' ITEMS';
+        },
+        showInfo: function(event) {
+           var image = event.target.src;
+        }
+    }
 });
