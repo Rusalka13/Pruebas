@@ -54,15 +54,6 @@ new Vue({
             {image: 'https://http2.mlstatic.com/los-sufrimientos-del-joven-werther-johann-w-goethe-D_NQ_NP_20920-MLA20200610779_112014-F.jpg', message:'Los sufrimientos del joven Werther', precio:'13,90€'}, 
             {image: 'https://imagessl5.casadellibro.com/a/l/t0/45/9788466236645.jpg', message:'EL ingenioso idalgo Don Quijote de la Mancha', precio:'10€'} 
         ], 
-    }, 
-    methods: {
-        addCart: function() {
-            var itemsCart = document.getElementById('items');
-            this.items++;
-            itemsCart.innerText = this.items + ' ITEMS';
-        },
-        showInfo: function(event) {
-           var image = event.target.src;
-        }
+        counter: 0,            
     }
-});
+})
