@@ -27,5 +27,5 @@ Para la prueba de hoy haremos un e-commence que será de tienda de libros. Para 
        -Para el carrito de la compra iremos a Font Awesome (https://fontawesome.com/) y cogeremos el icono del carrito y lo introducimos dentro de navbar.
 
 3.Hacemos lo que sera la arquitectura que mostrará nuestra página. La parte que se ha selecionado ha sido una cart (de boostrap) a la cual le haremos algunas modificaciones.
-        -En primer lugar creamos un archivo index.html en cual poderemos todos los links. En cuanto a nivel arquitectonico, después del body introduceremos un main con una id que conectará con vuejs y dentro del main pondremos la cart.
-        -En segundo lugar creamos un archivo app.js en cual podremos toda la parte de vuejs. Pondremos todos los datos que necesitemos en esta ocasión para poner las portadas de los libros, los nombres y los precios. Podeis ver como se ha realizado esto en el codigo.
+-En primer lugar creamos un archivo index.html en cual poderemos todos los links. En cuanto a nivel arquitectonico, después del body introduceremos un main con una id que conectará con vuejs y dentro del main pondremos la cart.
+-En segundo lugar creamos un archivo app.js en cual podremos toda la parte de vuejs. Pondremos todos los datos que necesitemos en esta ocasión para poner las portadas de los libros, los nombres y los precios. Podeis ver como se ha realizado esto en el codigo.
